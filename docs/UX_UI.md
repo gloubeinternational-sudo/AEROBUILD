@@ -2,88 +2,181 @@
 
 ## MODULE
 
-UX / UI
+UX_UI
 
 ---
 
 ## PURPOSE
 
-Define the user experience, interface structure, navigation, design system, and interaction rules for the Telegram Mini App.
+Define all user screens, navigation, UI components, user actions, and interaction flows for the Telegram Mini App.
 
 ---
 
-## DESIGN PRINCIPLES
+## SCREEN 01
 
-- Simple
-- Fast
-- Intuitive
-- Mobile First
-- Telegram Native
-- Minimal Clicks
-- Consistent Navigation
-
----
-
-## USER FLOW
-
-Launch App
-
-↓
-
-Login
-
-↓
-
-Home
-
-↓
-
-Aircraft
-
-↓
-
-Part Selection
-
-↓
-
-Purchase
-
-↓
-
-Progress
-
-↓
-
-Profile
-
----
-
-## MAIN SCREENS
-
-- Splash
-- Home
-- Aircraft
-- Parts
-- Team
-- Wallet
-- Missions
-- Profile
-- Leaderboard
-- Notifications
-- Settings
-
----
-
-## HOME
+Welcome
 
 Components
 
-- Aircraft Progress
-- Daily Mission
-- User Progress
-- Team Progress
-- News
-- Quick Actions
+* Logo
+* Project Name
+* Short Description
+* Open App Button
+
+Actions
+
+* Open Telegram Login
+
+---
+
+## SCREEN 02
+
+Home Dashboard
+
+Components
+
+* Aircraft Progress
+* User Progress
+* Team Progress
+* Daily Mission
+* News
+* Quick Actions
+
+Buttons
+
+* Build
+* Aircraft
+* Wallet
+* Team
+* Profile
+
+---
+
+## SCREEN 03
+
+Aircraft
+
+Components
+
+* Aircraft Image
+* Progress
+* Aircraft Zones
+* Parts Counter
+
+Actions
+
+* Select Zone
+* Open Catalog
+
+---
+
+## SCREEN 04
+
+Parts Catalog
+
+Components
+
+* Categories
+* Search
+* Filters
+* Product Cards
+
+Actions
+
+* View Part
+* Buy Part
+
+---
+
+## SCREEN 05
+
+Purchase
+
+Components
+
+* Product
+* Price
+* Payment Method
+* Confirm Button
+
+Actions
+
+* Create Order
+* Pay
+* Complete Purchase
+
+---
+
+## SCREEN 06
+
+Wallet
+
+Components
+
+* Balance
+* Transactions
+* Purchases
+
+---
+
+## SCREEN 07
+
+Team
+
+Components
+
+* Team Information
+* Members
+* Team Progress
+* Ranking
+
+Actions
+
+* Create Team
+* Join Team
+
+---
+
+## SCREEN 08
+
+Profile
+
+Components
+
+* Avatar
+* Status
+* Level
+* Achievements
+* Owned Parts
+* Purchase History
+
+---
+
+## SCREEN 09
+
+Notifications
+
+Components
+
+* Notification List
+
+Actions
+
+* Read
+* Delete
+
+---
+
+## SCREEN 10
+
+Settings
+
+Components
+
+* Language
+* Theme
+* Notifications
+* Privacy
 
 ---
 
@@ -91,116 +184,35 @@ Components
 
 Bottom Navigation
 
-- Home
-- Aircraft
-- Team
-- Wallet
-- Profile
-
----
-
-## UI COMPONENTS
-
-- Buttons
-- Cards
-- Progress Bars
-- Navigation Bar
-- Lists
-- Search
-- Filters
-- Badges
-- Notifications
-- Dialogs
-
----
-
-## COLORS
-
-Primary
-
-Secondary
-
-Success
-
-Warning
-
-Error
-
-Background
-
-Text
-
----
-
-## TYPOGRAPHY
-
-- Headings
-- Body
-- Caption
-- Buttons
-
----
-
-## ICONS
-
-- Aircraft
-- Parts
-- Team
-- Wallet
-- Profile
-- Missions
-- Notifications
-- Settings
-
----
-
-## ANIMATIONS
-
-- Screen Transition
-- Progress Update
-- Purchase Success
-- Achievement Unlock
-- Aircraft Progress
-
----
-
-## RESPONSIVE
-
-- Mobile
-- Tablet
-- Desktop (Future)
-
----
-
-## ACCESSIBILITY
-
-- Dark Mode
-- Font Scaling
-- Color Contrast
-- Screen Reader Support
+* Home
+* Aircraft
+* Team
+* Wallet
+* Profile
 
 ---
 
 ## DESIGN SYSTEM
 
-- Grid
-- Spacing
-- Components
-- Icons
-- Colors
-- Typography
+* Buttons
+* Cards
+* Progress Bars
+* Lists
+* Dialogs
+* Badges
+* Icons
 
 ---
 
 ## DEPENDENCIES
 
-GAME_MECHANICS
-
-API
+TELEGRAM_MINI_APP
 
 DATABASE
 
-TELEGRAM_MINI_APP
+API
+
+GAME_MECHANICS
 
 ---
 
