@@ -8,199 +8,220 @@ System Architecture
 
 ## PURPOSE
 
-Define the overall software architecture, system components, communication flow, infrastructure, deployment model, and scalability of the AEROBUILD platform.
+Define the overall software architecture, system components, data flow, integrations, deployment model, and communication between all platform modules.
 
 ---
 
-## PLATFORM
+## ARCHITECTURE
 
-- Telegram Mini App
-- Backend Services
-- REST API
-- Database
-- Admin Panel
-- Cloud Infrastructure
+Client → Telegram Mini App
 
----
+↓
 
-## SYSTEM COMPONENTS
+API Gateway
 
-Frontend
+↓
 
-Backend
+Backend Services
 
-API
+↓
 
-Database
+PostgreSQL Database
 
-Authentication
-
-Payment Service
-
-Notification Service
-
-Analytics
+↓
 
 Admin Panel
 
 ---
 
-## FRONTEND
+## CORE MODULES
 
-- Telegram Mini App
-- Responsive UI
-- Multi-language Support
-- User Dashboard
+* Telegram Mini App
+* Backend API
+* Database
+* Payment Service
+* Authentication Service
+* Team Service
+* Referral Service
+* Notification Service
+* Admin Panel
+* Analytics
+
+---
+
+## CLIENT
+
+Platform:
+
+* Telegram Mini App
+* Mobile First
+* Responsive Web
+
+Functions:
+
+* Authentication
+* Aircraft View
+* Parts Catalog
+* Purchases
+* Wallet
+* Team
+* Referral
+* Notifications
+* Profile
 
 ---
 
 ## BACKEND
 
-Functions
+Responsibilities:
 
-- Authentication
-- Business Logic
-- Aircraft Management
-- Team Management
-- Payment Processing
-- Notifications
-- Statistics
+* Business Logic
+* Authentication
+* Payments
+* Progress Calculation
+* Team Management
+* Referral Processing
+* Notifications
+* Reporting
 
 ---
 
 ## DATABASE
 
-Core Entities
+Engine:
 
-- Users
-- Aircraft
-- Parts
-- Teams
-- Payments
-- Transactions
-- Wallets
-- Missions
-- Achievements
-- Notifications
+* PostgreSQL
 
----
+Stores:
 
-## AUTHENTICATION
-
-- Telegram Login
-- JWT
-- Session Management
-- Role-Based Access Control
-
----
-
-## PAYMENT LAYER
-
-- Payment Gateway
-- Transaction Processing
-- Purchase Validation
-- Refund Processing
-
----
-
-## NOTIFICATION SERVICE
-
-- Telegram Messages
-- Push Notifications
-- Email (Future)
+* Users
+* Aircraft
+* Parts
+* Orders
+* Payments
+* Wallets
+* Teams
+* Referrals
+* Notifications
+* Logs
 
 ---
 
 ## ADMIN PANEL
 
-Functions
+Functions:
 
-- User Management
-- Aircraft Management
-- Economy Management
-- Team Management
-- Analytics
-- Content Management
-- System Settings
+* User Management
+* Product Management
+* Aircraft Management
+* Payment Monitoring
+* Reports
+* Analytics
+* System Settings
+
+---
+
+## AUTHENTICATION
+
+* Telegram Login
+* JWT
+* Refresh Tokens
+* Role Management
+
+---
+
+## PAYMENT SERVICE
+
+Supports:
+
+* Telegram Stars
+* Stripe
+* Bank Cards
+* Apple Pay
+* Google Pay
+
+Future:
+
+* Cryptocurrency
+
+---
+
+## NOTIFICATION SERVICE
+
+Channels:
+
+* Telegram
+* In-App Notifications
+* Email (Future)
 
 ---
 
 ## ANALYTICS
 
-- User Activity
-- Revenue
-- Team Statistics
-- Aircraft Progress
-- System Performance
+Metrics:
 
----
-
-## EXTERNAL SERVICES
-
-- Telegram Bot API
-- Telegram WebApp SDK
-- Payment Gateway
-- Cloud Storage
-- Analytics Platform
+* Active Users
+* Revenue
+* Aircraft Progress
+* Team Activity
+* Referral Performance
+* Conversion
+* Retention
 
 ---
 
 ## SECURITY
 
-- HTTPS
-- JWT
-- Encryption
-- Rate Limiting
-- Audit Logs
-- Backup
-- Monitoring
-
----
-
-## SCALABILITY
-
-- Modular Architecture
-- API Versioning
-- Horizontal Scaling
-- Cloud Deployment
-- CDN Support
-- Queue Processing
+* HTTPS
+* JWT
+* Role Based Access Control
+* Audit Logs
+* Daily Backup
+* Encryption
 
 ---
 
 ## DEPLOYMENT
 
-Development
+Environment:
 
-↓
+* Development
+* Staging
+* Production
 
-Testing
+---
 
-↓
+## INTEGRATIONS
 
-Staging
+* Telegram Bot API
+* Telegram Mini Apps SDK
+* Payment Gateway
+* PostgreSQL
+* Analytics
+* Cloud Storage
 
-↓
+---
 
-Production
+## SCALABILITY
+
+Support:
+
+* Multiple Aircraft
+* Multiple Countries
+* Multiple Languages
+* Corporate Accounts
+* Real Aviation Assets
 
 ---
 
 ## DEPENDENCIES
 
-MASTER_CONCEPT
-
-DATABASE
-
-API
-
-UX_UI
-
-TELEGRAM_MINI_APP
-
-ECONOMY
-
-LEGAL_MODEL
+* DATABASE
+* API
+* TELEGRAM_MINI_APP
+* ECONOMY
+* UX_UI
+* LEGAL_MODEL
 
 ---
 
