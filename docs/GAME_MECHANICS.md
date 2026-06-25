@@ -1,4 +1,4 @@
-# GAME MECHANICS
+# GAME_MECHANICS
 
 ## MODULE
 
@@ -8,7 +8,7 @@ Game Mechanics
 
 ## PURPOSE
 
-Define all gameplay systems, user interactions, progression mechanics, achievements, and collaborative aircraft construction.
+Define all gameplay systems, progression mechanics, collaboration rules, achievements, reputation, and aircraft construction within the AEROBUILD platform.
 
 ---
 
@@ -30,7 +30,11 @@ Build Aircraft
 
 ↓
 
-Earn Progress
+Increase Aircraft Progress
+
+↓
+
+Earn Reputation
 
 ↓
 
@@ -38,7 +42,7 @@ Join Team
 
 ↓
 
-Complete Tasks
+Complete Missions
 
 ↓
 
@@ -54,13 +58,13 @@ Repeat
 
 Functions
 
-- Registration
-- Profile
-- Progress
-- Inventory
-- Statistics
-- Achievements
-- Reputation
+* Registration
+* Profile
+* Progress
+* Inventory
+* Statistics
+* Reputation
+* Achievements
 
 ---
 
@@ -68,12 +72,12 @@ Functions
 
 Functions
 
-- Aircraft List
-- Aircraft Progress
-- Aircraft Parts
-- Construction Status
-- Contributors
-- History
+* Aircraft List
+* Aircraft Progress
+* Aircraft Zones
+* Parts Catalog
+* Contributors
+* Construction History
 
 ---
 
@@ -81,26 +85,26 @@ Functions
 
 Objects
 
-- Rivet
-- Bolt
-- Panel
-- Window
-- Seat
-- Engine Part
-- Landing Gear
-- Wing Part
-- Cabin Part
-- Custom Parts
+* Rivet
+* Bolt
+* Panel
+* Window
+* Seat
+* Engine Part
+* Wing Part
+* Landing Gear
+* Cabin Part
+* Custom Part
 
 Each Part
 
-- ID
-- Name
-- Category
-- Aircraft
-- Price
-- Quantity
-- Status
+* ID
+* Name
+* Category
+* Aircraft
+* Price
+* Quantity
+* Status
 
 ---
 
@@ -108,51 +112,43 @@ Each Part
 
 Levels
 
-- Beginner
-- Contributor
-- Builder
-- Creator
-- Engineer
-- Architect
-- Veteran
+* Visitor
+* Participant
+* Contributor
+* Builder
+* Creator
+* Engineer
+* Architect
 
 Progress Sources
 
-- Build Parts
-- Daily Activity
-- Missions
-- Team Activity
-- Referrals
+* Digital Parts
+* Daily Activity
+* Missions
+* Team Contribution
+* Referrals
+* Community Participation
 
 ---
 
 ## MISSIONS
 
-Daily Missions
-
-Weekly Missions
-
-Special Events
-
-Community Missions
-
-Global Missions
+* Daily Missions
+* Weekly Missions
+* Community Missions
+* Global Missions
+* Special Events
 
 ---
 
 ## REWARDS
 
-Experience
-
-Achievements
-
-Badges
-
-Titles
-
-Digital Collectibles
-
-Special Access
+* Experience
+* Achievements
+* Badges
+* Titles
+* Digital Collectibles
+* Special Access
 
 ---
 
@@ -160,11 +156,13 @@ Special Access
 
 Calculated From
 
-- Activity
-- Consistency
-- Team Contribution
-- Community Support
-- Completed Missions
+* Activity
+* Consistency
+* Team Contribution
+* Community Support
+* Mission Completion
+
+Reputation cannot be purchased.
 
 ---
 
@@ -172,61 +170,44 @@ Calculated From
 
 Functions
 
-Create Team
-
-Join Team
-
-Leave Team
-
-Team Progress
-
-Leaderboard
-
-Shared Missions
+* Create Team
+* Join Team
+* Leave Team
+* Team Progress
+* Team Missions
+* Team Ranking
 
 ---
 
 ## GLOBAL COMMUNITY
 
-Countries
+Global participation is one of the core mechanics of AEROBUILD.
 
-Communities
+Players may participate individually or as members of local, national, or international communities.
 
-Global Ranking
+Countries compete through collective progress, completed aircraft, community activity, and reputation.
 
-Aircraft Ranking
-
-Team Ranking
-
-Live Statistics
+Leaderboards encourage friendly competition while keeping every contribution focused on the shared mission of building aviation projects together.
 
 ---
 
 ## LEADERBOARDS
 
-Players
-
-Teams
-
-Countries
-
-Aircraft
-
-Events
+* Players
+* Teams
+* Countries
+* Aircraft
+* Events
 
 ---
 
 ## EVENTS
 
-Aircraft Launch
-
-Community Events
-
-Global Challenges
-
-Season Events
-
-Special Campaigns
+* Aircraft Launch
+* Community Events
+* Global Challenges
+* Seasonal Events
+* Special Campaigns
 
 ---
 
@@ -234,69 +215,56 @@ Special Campaigns
 
 Contains
 
-- Avatar
-- Username
-- Level
-- Reputation
-- Statistics
-- Aircraft Built
-- Parts Owned
-- Achievements
+* Avatar
+* Username
+* Level
+* Reputation
+* Statistics
+* Aircraft Built
+* Parts Owned
+* Achievements
 
 ---
 
 ## INVENTORY
 
-Purchased Parts
-
-Rewards
-
-Collectibles
-
-Certificates
+* Purchased Parts
+* Rewards
+* Collectibles
+* Certificates
 
 ---
 
 ## GAME RULES
 
-- Every action updates progress.
-- Every part belongs to one aircraft.
-- Every purchase is recorded.
-- Every achievement is permanent.
-- Teams have shared progress.
-- Reputation cannot be purchased.
+* Every action updates progress.
+* Every contribution is recorded.
+* Every digital part belongs to one aircraft.
+* Every achievement is permanent.
+* Teams have shared progress.
+* Reputation cannot be purchased.
 
 ---
 
 ## ADMIN
 
-Manage Aircraft
-
-Manage Parts
-
-Manage Missions
-
-Manage Rewards
-
-Manage Rankings
-
-Manage Events
-
-Manage Seasons
+* Manage Aircraft
+* Manage Parts
+* Manage Missions
+* Manage Rewards
+* Manage Rankings
+* Manage Events
+* Manage Seasons
 
 ---
 
 ## DEPENDENCIES
 
-DATABASE
-
-API
-
-ECONOMY
-
-UX_UI
-
-TELEGRAM_MINI_APP
+* DATABASE
+* API
+* ECONOMY
+* UX_UI
+* TELEGRAM_MINI_APP
 
 ---
 
