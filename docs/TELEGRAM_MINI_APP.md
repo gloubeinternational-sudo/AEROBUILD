@@ -1,4 +1,4 @@
-# TELEGRAM MINI APP
+# TELEGRAM_MINI_APP
 
 ## MODULE
 
@@ -8,207 +8,260 @@ Telegram Mini App
 
 ## PURPOSE
 
-Define the Telegram Mini App architecture, user flow, screens, navigation, and integration with backend services.
+Define the Telegram Mini App structure, user entry flow, navigation, core screens, Telegram integration, and MVP behavior.
 
 ---
 
 ## PLATFORM
 
 - Telegram Mini App
-- Telegram Bot
+- Mobile First
+- WebView
 - Telegram Login
-- Telegram WebApp SDK
+- Telegram Payments
+- Telegram Sharing
 
 ---
 
-## AUTHENTICATION
+## MVP SCREENS
 
-- Telegram Authorization
-- User Registration
-- Session Management
-- JWT Authentication
-
----
-
-## MAIN SCREENS
-
-1. Splash Screen
-2. Home Dashboard
-3. Aircraft
-4. Digital Parts
-5. Team
-6. Missions
-7. Profile
-8. Wallet
-9. Leaderboard
-10. Notifications
-11. Settings
+1. Welcome
+2. Login
+3. Main Dashboard
+4. Aircraft NF-001
+5. Parts Catalog
+6. Buy Part
+7. User Profile
+8. Team
+9. Referral
+10. Wallet
+11. Progress
+12. Notifications
 
 ---
 
-## NAVIGATION
+## USER FLOW
 
-Home
-
-↓
-
-Aircraft
-
-↓
-
-Parts
-
-↓
-
-Purchase
-
-↓
-
-Progress
-
-↓
-
-Profile
+1. User opens Telegram bot.
+2. User clicks Open App.
+3. App receives Telegram user data.
+4. Backend verifies Telegram auth.
+5. User profile is created or loaded.
+6. User sees NF-001 dashboard.
+7. User selects aircraft part.
+8. User creates order.
+9. User completes payment.
+10. Part is assigned to user.
+11. Aircraft progress is updated.
+12. User sees contribution history.
 
 ---
 
-## HOME DASHBOARD
+## MAIN DASHBOARD
 
-Displays:
+Display:
 
-- Current Aircraft
-- Construction Progress
-- User Progress
-- Daily Mission
-- Team Status
-- Notifications
+- Aircraft name
+- Aircraft progress
+- Active users
+- Current stage
+- User contribution
+- Team progress
+- Main action button
+
+Primary action:
+
+- Build / Buy Part
 
 ---
 
 ## AIRCRAFT SCREEN
 
-Functions
+Display:
 
-- Aircraft Overview
-- Construction Progress
-- Parts List
-- Contributors
-- Statistics
+- Aircraft ID
+- Progress %
+- Aircraft zones
+- Available parts
+- Completed parts
+- User-owned parts
 
----
+Actions:
 
-## PARTS SCREEN
-
-Functions
-
-- Browse Parts
-- Search
-- Categories
-- Purchase
-- History
+- Select zone
+- View parts
+- Buy part
+- View history
 
 ---
 
-## TEAM SCREEN
+## PARTS CATALOG
 
-Functions
+Display:
 
-- Team Information
-- Members
-- Missions
-- Ranking
-- Statistics
+- Part name
+- Category
+- Price
+- Quantity
+- Aircraft zone
+- Availability
+
+Actions:
+
+- Buy
+- View details
+- Add to team progress
 
 ---
 
-## PROFILE SCREEN
+## PAYMENT FLOW
 
-Contains
+1. User selects product.
+2. App creates order.
+3. Payment request is sent.
+4. Payment is confirmed.
+5. Transaction is saved.
+6. Part is assigned.
+7. Progress is updated.
 
-- Avatar
+---
+
+## PROFILE
+
+Display:
+
+- Telegram ID
 - Username
 - Level
-- Reputation
-- Achievements
-- Statistics
+- Status
+- Owned parts
+- Contribution history
+- Team
+- Referral link
 
 ---
 
-## WALLET SCREEN
+## TEAM
 
-Contains
+Functions:
+
+- Create team
+- Join team
+- View members
+- View team progress
+- View team ranking
+
+---
+
+## REFERRAL
+
+Functions:
+
+- Generate referral link
+- Track invited users
+- Show referral rewards
+- Show referral statistics
+
+---
+
+## WALLET
+
+Display:
 
 - Balance
-- Purchase History
-- Rewards
+- Payments
 - Transactions
-
----
-
-## MISSIONS SCREEN
-
-Contains
-
-- Daily Missions
-- Weekly Missions
-- Special Events
+- Rewards
+- Refunds
 
 ---
 
 ## NOTIFICATIONS
 
-- Purchases
-- Team Events
-- Aircraft Progress
-- Rewards
-- Announcements
+Types:
+
+- Purchase confirmed
+- Aircraft progress updated
+- Team event
+- Referral joined
+- New part available
+- First flight event
 
 ---
 
-## SETTINGS
+## TELEGRAM INTEGRATIONS
 
-- Language
+- Telegram Login
+- Telegram Bot
+- Telegram Mini App SDK
+- Telegram Payments
+- Telegram Share Links
+- Telegram Notifications
+
+---
+
+## API DEPENDENCIES
+
+- Auth API
+- User API
+- Aircraft API
+- Parts API
+- Payment API
+- Wallet API
+- Team API
+- Referral API
+- Notification API
+
+---
+
+## DATABASE DEPENDENCIES
+
+- Users
+- Aircraft
+- Parts
+- Orders
+- Payments
+- Transactions
+- Teams
+- Referrals
+- Wallets
 - Notifications
-- Privacy
-- Security
-- Support
 
 ---
 
-## INTEGRATIONS
+## ADMIN DEPENDENCIES
 
-- Telegram Bot API
-- Telegram WebApp SDK
-- Backend API
-- Database
-- Payment Gateway
-- Analytics
-
----
-
-## SECURITY
-
-- Telegram Authentication
-- JWT
-- HTTPS
-- Rate Limiting
-- User Validation
+- Manage users
+- Manage aircraft
+- Manage parts
+- Manage payments
+- Manage teams
+- Manage notifications
 
 ---
 
-## DEPENDENCIES
+## MVP LIMITS
 
-DATABASE
+- One aircraft: NF-001
+- One main catalog
+- Basic payments
+- Basic profile
+- Basic team system
+- Basic referral system
+- Basic admin control
 
-API
+---
 
-GAME_MECHANICS
+## FUTURE
 
-ECONOMY
-
-UX_UI
-
-SYSTEM_ARCHITECTURE
+- Multiple aircraft
+- Advanced teams
+- Country rankings
+- Marketplace
+- Academy
+- Museum
+- Aircraft biography
+- Corporate accounts
 
 ---
 
