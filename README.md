@@ -1,65 +1,48 @@
 # AEROBUILD
 
-Telegram-first aviation platform for collaborative aircraft construction and future real aviation asset management.
+Telegram-first platform for collaborative aviation projects.
 
 ---
 
-## Repository Purpose
+## PROJECT
 
-This repository contains the complete product specification, business model, system architecture, and technical documentation required to develop the AEROBUILD platform.
+**Name:** AEROBUILD
 
----
+**Organization:** Global International
 
-## Repository Structure
+**Platform:** Telegram Mini App
 
-MASTER_CONCEPT.md
+**Repository Version:** 1.0
 
-MISSION.md
-
-VISION.md
-
-BUSINESS_MODEL.md
-
-GAME_MECHANICS.md
-
-ECONOMY.md
-
-DATABASE.md
-
-API.md
-
-TELEGRAM_MINI_APP.md
-
-UX_UI.md
-
-LEGAL_MODEL.md
-
-SYSTEM_ARCHITECTURE.md
-
-ROADMAP.md
+**Status:** Product Specification
 
 ---
 
-## Product
+## PURPOSE
 
-Platform:
-Telegram Mini App
-
-Organization:
-Global International
-
-Project:
-AEROBUILD
+This repository contains the complete product specification required to design, develop, test, and deploy the AEROBUILD platform.
 
 ---
 
-## Current Status
+## DOCUMENTATION
 
-Product Specification
+* MASTER_CONCEPT.md
+* MISSION.md
+* VISION.md
+* BUSINESS_MODEL.md
+* GAME_MECHANICS.md
+* ECONOMY.md
+* DATABASE.md
+* API.md
+* TELEGRAM_MINI_APP.md
+* UX_UI.md
+* LEGAL_MODEL.md
+* SYSTEM_ARCHITECTURE.md
+* ROADMAP.md
 
 ---
 
-## Development Workflow
+## DEVELOPMENT FLOW
 
 Concept
 
@@ -85,33 +68,29 @@ Production
 
 ---
 
-## Technologies
+## TECHNOLOGY STACK
 
-Telegram Mini App
-
-Backend API
-
-Database
-
-Admin Panel
-
-Cloud Infrastructure
-
-Payment Gateway
+* Telegram Mini Apps
+* Backend API
+* PostgreSQL
+* Admin Panel
+* Payment Gateway
+* Cloud Infrastructure
 
 ---
 
-## Repository Rules
+## DEVELOPMENT PRINCIPLES
 
-- One module = one document.
-- No duplicate documentation.
-- English language only.
-- Specifications before implementation.
-- Every module has its own responsibility.
+* One module = one document.
+* One responsibility = one module.
+* English documentation only.
+* Specification before implementation.
+* No duplicate documentation.
 
 ---
 
-## License
+## COPYRIGHT
 
-Copyright © Global International.
-All rights reserved.
+Global International
+
+All Rights Reserved.
