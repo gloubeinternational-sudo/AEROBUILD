@@ -1,35 +1,73 @@
-AEROBUILD MISSION
+# MISSION
 
-Organization:
-Global International
+## MODULE
 
-Purpose
+Mission
 
-AEROBUILD is a long-term initiative focused on creating a community-owned aviation ecosystem.
+---
 
-The project aims to unite engineers, developers, manufacturers, investors and aviation enthusiasts around the development of practical aircraft solutions.
+## PURPOSE
 
-Core Principles
+Define the core mission of AEROBUILD as a product, community, and future aviation asset platform.
 
-- Open participation
-- Transparency
-- Engineering excellence
-- Long-term sustainability
-- Community ownership
-- Real-world implementation
+---
 
-Objectives
+## MISSION STATEMENT
 
-1. Build a global aviation community.
-2. Develop aircraft concepts.
-3. Create engineering partnerships.
-4. Build flying prototypes.
-5. Establish an operational aviation fleet.
-6. Create a sustainable aviation ecosystem.
+Build a Telegram-based aviation ecosystem where people can collectively participate in aircraft creation, support aviation projects, join teams, and help transform digital participation into future real aviation assets.
 
-Vision
+---
 
-To make aviation development accessible to talented people regardless of their location, background or financial status.
+## CORE IDEA
 
-Managed by:
-Global International
+AEROBUILD starts as a gamified digital platform.
+
+Users join the project, build virtual aircraft, purchase symbolic aircraft parts, complete missions, join teams, and grow the aviation community.
+
+The long-term business direction is to connect this community with legally structured real aviation assets.
+
+---
+
+## PRINCIPLES
+
+- Start with a working product.
+- Build trust through transparency.
+- Separate digital participation from legal ownership.
+- Grow community before capital.
+- Use Telegram as the first launch platform.
+- Keep the MVP simple.
+- Scale only after validation.
+
+---
+
+## TARGET RESULT
+
+- Launch Telegram Mini App.
+- Build first aircraft NF-001.
+- Attract early users.
+- Validate payments.
+- Create active teams.
+- Prove retention.
+- Prepare legal structure for future real assets.
+
+---
+
+## DEPENDENCIES
+
+MASTER_CONCEPT
+
+VISION
+
+BUSINESS_MODEL
+
+GAME_MECHANICS
+
+ECONOMY
+
+LEGAL_MODEL
+
+---
+
+## STATUS
+
+Draft v1.0
