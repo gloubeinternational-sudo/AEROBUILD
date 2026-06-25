@@ -8,63 +8,53 @@ Mission
 
 ## PURPOSE
 
-Define the core mission of AEROBUILD as a product, community, and future aviation asset platform.
+Define the mission of AEROBUILD as a Telegram-first platform that unites people around collaborative aviation projects and creates a foundation for future real aviation assets.
 
 ---
 
 ## MISSION STATEMENT
 
-Build a Telegram-based aviation ecosystem where people can collectively participate in aircraft creation, support aviation projects, join teams, and help transform digital participation into future real aviation assets.
+Build a global aviation community where anyone can participate in creating aircraft through a simple, transparent, and engaging digital experience.
 
 ---
 
 ## CORE IDEA
 
-AEROBUILD starts as a gamified digital platform.
+AEROBUILD begins as a Telegram Mini App where users collect symbolic aircraft components, complete missions, collaborate in teams, and follow the progress of real aviation projects.
 
-Users join the project, build virtual aircraft, purchase symbolic aircraft parts, complete missions, join teams, and grow the aviation community.
-
-The long-term business direction is to connect this community with legally structured real aviation assets.
+The platform is designed to evolve step by step toward legally structured real aviation assets while maintaining transparency and community participation.
 
 ---
 
 ## PRINCIPLES
 
-- Start with a working product.
-- Build trust through transparency.
-- Separate digital participation from legal ownership.
-- Grow community before capital.
-- Use Telegram as the first launch platform.
-- Keep the MVP simple.
-- Scale only after validation.
+* Build a working product first.
+* Keep participation simple.
+* Build trust through transparency.
+* Grow the community before scaling.
+* Separate digital participation from legal ownership.
+* Validate every stage before expansion.
 
 ---
 
 ## TARGET RESULT
 
-- Launch Telegram Mini App.
-- Build first aircraft NF-001.
-- Attract early users.
-- Validate payments.
-- Create active teams.
-- Prove retention.
-- Prepare legal structure for future real assets.
+* Launch the Telegram Mini App.
+* Complete the first digital aircraft (NF-001).
+* Build an active global community.
+* Validate the business model.
+* Prepare the legal and technical foundation for future real aviation assets.
 
 ---
 
 ## DEPENDENCIES
 
-MASTER_CONCEPT
-
-VISION
-
-BUSINESS_MODEL
-
-GAME_MECHANICS
-
-ECONOMY
-
-LEGAL_MODEL
+* MASTER_CONCEPT
+* VISION
+* BUSINESS_MODEL
+* GAME_MECHANICS
+* ECONOMY
+* LEGAL_MODEL
 
 ---
 
