@@ -1,2 +1,1 @@
-AEROBUILD
-People's Aviation Project
+# Deprecated — content moved to MASTER_CONCEPT.md
