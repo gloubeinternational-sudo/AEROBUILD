@@ -8,7 +8,7 @@ Database
 
 ## PURPOSE
 
-Define the complete database structure for the AEROBUILD platform.
+Define the database structure for users, aircraft, parts, payments, teams, referrals, wallet operations, notifications, and admin control.
 
 ---
 
@@ -18,59 +18,29 @@ PostgreSQL
 
 ---
 
-## TABLES
+## CORE TABLES
 
-Users
-
-Profiles
-
-Aircraft
-
-AircraftParts
-
-Products
-
-Orders
-
-Payments
-
-Transactions
-
-Wallets
-
-Teams
-
-TeamMembers
-
-Referrals
-
-Achievements
-
-Levels
-
-Inventory
-
-Notifications
-
-Sessions
-
-AdminUsers
-
-AuditLogs
-
-Countries
-
-Leaderboard
-
-Campaigns
-
-Settings
+- users
+- aircraft
+- aircraft_zones
+- parts
+- user_parts
+- orders
+- payments
+- transactions
+- wallets
+- teams
+- team_members
+- referrals
+- notifications
+- admin_users
+- audit_logs
 
 ---
 
 ## USERS
 
-Fields
+Fields:
 
 - id
 - telegram_id
@@ -79,130 +49,155 @@ Fields
 - last_name
 - language
 - country
-- avatar
-- level_id
-- reputation
+- level
+- status
 - created_at
 - updated_at
-- status
 
 ---
 
 ## AIRCRAFT
 
-Fields
+Fields:
 
 - id
 - code
 - name
-- model
 - status
-- progress
-- launch_date
-- completed_date
+- progress_percent
+- start_date
+- first_flight_date
+- created_at
+- updated_at
 
 ---
 
-## AIRCRAFT PARTS
+## AIRCRAFT_ZONES
 
-Fields
+Fields:
 
 - id
 - aircraft_id
-- category
 - name
-- quantity
-- installed
-- progress
-- price
+- progress_percent
 - status
+- created_at
+- updated_at
 
 ---
 
-## PRODUCTS
+## PARTS
 
-Fields
+Fields:
 
 - id
+- aircraft_id
+- zone_id
 - name
 - category
-- aircraft_part_id
 - price
 - currency
-- stock
-- active
+- quantity_total
+- quantity_available
+- progress_value
+- status
+- created_at
+- updated_at
+
+---
+
+## USER_PARTS
+
+Fields:
+
+- id
+- user_id
+- part_id
+- aircraft_id
+- order_id
+- quantity
+- created_at
 
 ---
 
 ## ORDERS
 
-Fields
+Fields:
 
 - id
 - user_id
-- total
+- total_amount
 - currency
-- payment_status
+- status
+- payment_method
 - created_at
+- updated_at
 
 ---
 
 ## PAYMENTS
 
-Fields
+Fields:
 
 - id
 - order_id
+- user_id
 - provider
-- transaction_id
+- provider_payment_id
 - amount
 - currency
 - status
 - created_at
+- updated_at
 
 ---
 
 ## TRANSACTIONS
 
-Fields
+Fields:
 
 - id
 - user_id
+- order_id
 - payment_id
-- product_id
+- type
 - amount
+- currency
+- status
 - created_at
 
 ---
 
 ## WALLETS
 
-Fields
+Fields:
 
 - id
 - user_id
 - balance
-- bonus_balance
+- currency
+- created_at
 - updated_at
 
 ---
 
 ## TEAMS
 
-Fields
+Fields:
 
 - id
 - name
+- owner_user_id
 - country
-- owner_id
-- members
-- progress
+- progress_score
+- created_at
+- updated_at
 
 ---
 
-## TEAM MEMBERS
+## TEAM_MEMBERS
 
-Fields
+Fields:
 
 - id
 - team_id
@@ -214,125 +209,97 @@ Fields
 
 ## REFERRALS
 
-Fields
+Fields:
 
 - id
-- inviter_id
-- invited_id
-- reward
+- referrer_user_id
+- invited_user_id
+- referral_code
+- reward_status
 - created_at
 
 ---
 
-## ACHIEVEMENTS
+## NOTIFICATIONS
 
-Fields
-
-- id
-- name
-- description
-- icon
-- points
-
----
-
-## INVENTORY
-
-Fields
+Fields:
 
 - id
 - user_id
-- product_id
-- quantity
-
----
-
-## COUNTRIES
-
-Fields
-
-- id
-- name
-- iso
-- users
-- teams
-- progress
-
----
-
-## LEADERBOARD
-
-Fields
-
-- id
 - type
-- object_id
-- score
-- position
+- title
+- message
+- status
+- created_at
+- read_at
 
 ---
 
-## SETTINGS
+## ADMIN_USERS
 
-Global configuration values.
+Fields:
+
+- id
+- user_id
+- role
+- permissions
+- created_at
+
+---
+
+## AUDIT_LOGS
+
+Fields:
+
+- id
+- admin_user_id
+- action
+- entity_type
+- entity_id
+- payload
+- created_at
 
 ---
 
 ## RELATIONS
 
-User → Wallet
-
-User → Orders
-
-User → Transactions
-
-User → Team
-
-Aircraft → AircraftParts
-
-AircraftParts → Products
-
-Order → Payments
-
-Order → Transactions
-
-Country → Teams
-
-Team → Members
-
-User → Inventory
+- user has one wallet
+- user has many orders
+- user has many transactions
+- user has many user_parts
+- aircraft has many zones
+- aircraft has many parts
+- part belongs to aircraft
+- part belongs to aircraft_zone
+- order has many payments
+- payment belongs to order
+- team has many members
+- user can belong to many teams
+- referral connects referrer and invited user
 
 ---
 
 ## INDEXES
 
-telegram_id
-
-username
-
-country
-
-aircraft_id
-
-team_id
-
-order_id
-
-payment_id
-
-created_at
+- users.telegram_id
+- aircraft.code
+- parts.aircraft_id
+- parts.zone_id
+- orders.user_id
+- payments.order_id
+- transactions.user_id
+- teams.country
+- referrals.referral_code
 
 ---
 
 ## SECURITY
 
-Encrypted sensitive data
-
-Role-based access
-
-Audit logging
-
-Backups
+- Store payment provider IDs.
+- Do not store raw card data.
+- Use audit logs for admin actions.
+- Use role-based access control.
+- Backup database daily.
 
 ---
 
