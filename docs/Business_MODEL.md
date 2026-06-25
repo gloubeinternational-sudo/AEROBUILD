@@ -8,100 +8,98 @@ Business Model
 
 ## PURPOSE
 
-Define the business structure, operational model, revenue streams, growth strategy, ownership model, and transition from digital participation to real aviation assets.
+Define the business structure, operational model, revenue streams, customer segments, growth strategy, and transition from digital participation to real aviation assets.
 
 ---
 
 ## BUSINESS TYPE
 
-- Telegram Mini App
-- Digital Platform
-- Aviation Community
-- Gamified Ecosystem
-- SaaS Infrastructure
-- Future Real Asset Platform
+* Telegram Mini App
+* Digital Platform
+* Aviation Community
+* Gamified Ecosystem
+* Future Real Asset Platform
 
 ---
 
 ## TARGET USERS
 
-- Aviation Enthusiasts
-- Gamers
-- Telegram Users
-- Communities
-- Educational Institutions
-- Corporate Partners
-- Sponsors
+* Aviation Enthusiasts
+* Telegram Users
+* Gamers
+* Educational Institutions
+* Corporate Partners
+* Sponsors
 
 ---
 
 ## VALUE PROPOSITION
 
-- Build aircraft together.
-- Participate in a global aviation community.
-- Track real project progress.
-- Collect digital aircraft components.
-- Join teams and national communities.
-- Learn aviation through participation.
-- Enable future transition to real aviation assets.
+* Join a global aviation community.
+* Build aircraft together through digital participation.
+* Track real project progress.
+* Collect digital aircraft components.
+* Participate individually or as a team.
+* Learn, compete, and contribute.
+* Support the future creation of real aviation assets.
 
 ---
 
 ## CUSTOMER SEGMENTS
 
-- Individual Users
-- Teams
-- Corporate Clients
-- Educational Partners
-- Aviation Organizations
+* Individual Users
+* Teams
+* Corporate Clients
+* Educational Partners
+* Aviation Organizations
 
 ---
 
 ## REVENUE STREAMS
 
-- Digital Parts
-- Premium Membership
-- Team Packages
-- Corporate Packages
-- Sponsorship
-- Donations
-- Marketplace (Future)
-- Licensing (Future)
+* Digital Parts
+* Premium Membership
+* Team Packages
+* Corporate Packages
+* Sponsorship
+* Donations
+* Marketplace (Future)
+* Licensing (Future)
 
 ---
 
 ## COST STRUCTURE
 
-- Software Development
-- Infrastructure
-- Cloud Services
-- Payment Processing
-- Marketing
-- Community Management
-- Legal
-- Operations
+* Software Development
+* Infrastructure
+* Cloud Services
+* Payment Processing
+* Marketing
+* Community Management
+* Legal
+* Operations
 
 ---
 
 ## DISTRIBUTION CHANNELS
 
-- Telegram
-- Website
-- GitHub
-- Social Media
-- Referral System
-- Community Leaders
+* Telegram
+* Website
+* GitHub
+* Social Media
+* Referral System
+* Community Leaders
 
 ---
 
 ## PARTNERS
 
-- Telegram
-- Payment Providers
-- Cloud Providers
-- Aviation Companies
-- Educational Partners
-- Legal Advisors
+* Telegram
+* Payment Providers
+* Cloud Providers
+* Aviation Companies
+* Educational Partners
+* Legal Advisors
 
 ---
 
@@ -115,23 +113,19 @@ Registration
 
 ↓
 
-Profile
+First Contribution
 
 ↓
 
-First Aircraft Part
+Aircraft Participation
 
 ↓
 
-Team
+Team Participation
 
 ↓
 
-Regular Participation
-
-↓
-
-Community Member
+Community Reputation
 
 ↓
 
@@ -141,78 +135,64 @@ Long-Term Contributor
 
 ## SCALING STRATEGY
 
-Phase 1
-Telegram Mini App
+Phase 1 — Telegram Mini App
 
-Phase 2
-Global Community
+Phase 2 — Global Community
 
-Phase 3
-Corporate Partnerships
+Phase 3 — Corporate Partnerships
 
-Phase 4
-Real Aviation Assets
+Phase 4 — Real Aviation Assets
 
-Phase 5
-International Expansion
+Phase 5 — International Expansion
 
 ---
 
 ## SUCCESS METRICS
 
-- Registered Users
-- Daily Active Users
-- Monthly Active Users
-- Revenue
-- Team Growth
-- Referral Growth
-- Aircraft Progress
-- User Retention
+* Registered Users
+* Daily Active Users
+* Monthly Active Users
+* Revenue
+* Team Growth
+* Referral Growth
+* Aircraft Progress
+* User Retention
 
 ---
 
 ## RISKS
 
-- Low User Adoption
-- Payment Restrictions
-- Legal Changes
-- Platform Dependency
-- Security Risks
+* Low User Adoption
+* Payment Restrictions
+* Legal Changes
+* Platform Dependency
+* Security Risks
 
 ---
 
 ## INTEGRATIONS
 
-- Telegram
-- Payment Gateway
-- Backend API
-- Database
-- Admin Panel
-- Analytics
+* Telegram
+* Payment Gateway
+* Backend API
+* Database
+* Admin Panel
+* Analytics
 
 ---
 
 ## DEPENDENCIES
 
-MISSION
-
-VISION
-
-GAME_MECHANICS
-
-ECONOMY
-
-DATABASE
-
-API
-
-UX_UI
-
-TELEGRAM_MINI_APP
-
-LEGAL_MODEL
-
-SYSTEM_ARCHITECTURE
+* MISSION
+* VISION
+* GAME_MECHANICS
+* ECONOMY
+* DATABASE
+* API
+* UX_UI
+* TELEGRAM_MINI_APP
+* LEGAL_MODEL
+* SYSTEM_ARCHITECTURE
 
 ---
 
